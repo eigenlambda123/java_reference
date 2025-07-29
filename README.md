@@ -1,27 +1,37 @@
-# Head First Java – Learning Reference
+# Java Learning Reference – Based on *Head First Java*
 
-This repository contains personal notes, code snippets, and aligned projects for learning Java from scratch using [**Head First Java, 2nd Edition**](https://www.oreilly.com/library/view/head-first-java/0596009208/) — a brain-friendly guide to object-oriented programming in Java.
+This repository contains personal notes, Java code examples, and hands-on mini-projects designed to deepen understanding of **Java** and **Object-Oriented Programming (OOP)** fundamentals. The structure of this learning path follows the chapter flow of the book *Head First Java*.
 
 ## Purpose
 
-To build a strong foundation in Java by:
+To build a strong foundation in Java and OOP by:
 
-* Learning core OOP principles (encapsulation, inheritance, polymorphism)
-* Writing CLI-based Java applications
-* Reinforcing concepts through project-based practice
-* Preparing for backend-oriented Java development
+- Understanding core Java syntax and structure  
+- Practicing OOP principles like encapsulation, inheritance, and polymorphism  
+- Reinforcing key CS concepts through structured code walkthroughs  
+- Preparing for software development in Java across academic and real-world applications
 
-> 📘 This series also supports the academic curriculum for **CSOP101 – Object-Oriented Programming**
+> This journey supports coursework in **CSOP01 – M027: Object-Oriented Programming**, and aligns with core computing topics like **object-oriented design**, **software engineering practices**, and **Java-based backend development**.
 
 ## Structure
 
-Each folder contains notes, practice code, or full projects aligned with specific concepts:
+The folder structure mirrors the book chapters and breaks down into smaller coding tasks and examples:
 
-* `notes/` – Chapter summaries, syntax notes, diagrams
-* `mini-exercises/` – Small hands-on code problems
-* `project10x-java/` – Full CLI projects linked to Java OOP mastery
+| Folder                          | Focus Area                                                  |
+| ------------------------------- | ----------------------------------------------------------- |
+| `Chapter01-BreakingTheSurface/` | Getting started, writing first Java program                 |
+| `Chapter02-ATripToObjectville/` | Intro to objects, message sending, and encapsulation basics |
+| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
+| `...`                           | *(More chapters will follow as learning progresses)*        |
+
+Each chapter contains:
+
+- Subfolders (e.g., `01a-FirstApp/`, `02a-ObjectIntro/`) for focused code examples  
+- A `README.md` summarizing key concepts from the chapter  
+- `.java` files with fully working examples  
+- Comments and documentation to explain code logic
 
 ## License
 
-This repo is for personal learning and study. No license applied.
-Feel free to fork or adapt for your own Java journey.
+This repository is for **personal learning** and concept reinforcement.  
+Feel free to explore, fork, or build on it for your own educational purposes.
