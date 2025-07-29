@@ -11,7 +11,7 @@ To build a strong foundation in Java by:
 * Reinforcing concepts through project-based practice
 * Preparing for backend-oriented Java development
 
-> 📘 This series also supports the academic curriculum for **CSOP101 – Object-Oriented Programming**
+>  This series also supports the academic curriculum for **CSOP101 – Object-Oriented Programming**
 
 ## Structure
 
