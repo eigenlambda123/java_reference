@@ -1,55 +1,53 @@
 ## Chapter 2 – A Trip to Objectville
 
-### Goal:
+### Objective
 
-To introduce **object-oriented programming (OOP)** by creating and using objects in Java. Start thinking in terms of **objects, classes, fields, and methods** instead of just logic and flow.
+To introduce foundational object-oriented programming (OOP) concepts in Java, including **classes, objects, methods, and instance variables**. This chapter focuses on shifting from procedural thinking to object-based design.
 
 ---
 
 ### Concepts
 
-#### Objects & Classes
+#### Classes and Objects
 
-* A **class** is a blueprint. An **object** is a real instance of that blueprint.
+* A **class** defines a blueprint for objects. It encapsulates data (instance variables) and behavior (methods).
+* An **object** is an instance of a class, created using the `new` keyword.
 
-* Example:
+Example:
 
-  ```java
-  class Dog {
-      int size;
-      String name;
+```java
+class Dog {
+    int size;
+    String name;
 
-      void bark() {
-          System.out.println("Woof! Woof!");
-      }
-  }
-  ```
+    void bark() {
+        System.out.println("Woof!");
+    }
+}
+```
 
-* Create an object using:
+Instantiation and usage:
 
-  ```java
-  Dog myDog = new Dog();
-  myDog.size = 40;
-  myDog.name = "Rex";
-  myDog.bark();
-  ```
-
----
-
-### Object Anatomy
-
-| Component            | Description                                                 |
-| -------------------- | ----------------------------------------------------------- |
-| **Fields**           | Store the object’s state (data) → `int size`, `String name` |
-| **Methods**          | Define behavior → `void bark()`                             |
-| **new**              | Creates an object instance → `new Dog()`                    |
-| **dot operator `.`** | Access fields/methods → `myDog.bark()`                      |
+```java
+Dog myDog = new Dog();
+myDog.size = 40;
+myDog.name = "Rex";
+myDog.bark();
+```
 
 ---
 
-### Using Multiple Objects
+### Instance Variables and Methods
 
-Creating many instances from one class:
+* **Instance variables** (e.g., `int size`, `String name`) store the state of an object. Each object maintains its own copy.
+* **Methods** (e.g., `bark()`) define the behavior of the object.
+* Methods can access the instance variables of the object they belong to.
+
+---
+
+### Using Multiple Instances
+
+Multiple objects can be created from a single class definition. Each object maintains its own state:
 
 ```java
 Movie one = new Movie();
@@ -69,11 +67,12 @@ two.playIt();
 
 ### Object-Oriented Thinking
 
-* **Encapsulation**: Data (fields) and behavior (methods) are bundled inside objects.
-* **Reusability**: Define a class once and reuse it as many times as needed.
-* **Responsibility**: Objects handle their own tasks. For example, the `Player` object guesses, the `Game` object runs the game.
+* **Encapsulation**: Fields and behaviors are grouped within a class, providing modular and self-contained components.
+* **Responsibility**: Each object is responsible for its own behavior (e.g., a `Player` object performs its own guessing).
+* **Interaction**: Objects collaborate by sending messages (method calls) to each other.
 
 ---
+
 
 ### Common Mistake Alert
 
@@ -86,9 +85,13 @@ two.playIt();
 
 ---
 
-### Java Project Structure
+### Java Syntax and Structure
 
-* **Keep one public class per file.**
-* Compile each `.java` file separately if needed.
-* Then run the class with the `main()` method.
+* When a class is declared `public`, the filename must match the class name.
+
+  ```java
+  public class MovieTestDrive { ... }
+  // → File must be named MovieTestDrive.java
+  ```
+* Each `.java` file typically contains one public class.
 
