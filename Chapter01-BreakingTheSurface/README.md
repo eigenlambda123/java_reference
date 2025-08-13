@@ -1,8 +1,6 @@
 ## Chapter 1 – Breaking the Surface
 
-### Goal:
-
-To introduce the **basic structure of Java programs**, including classes, the `main()` method, statements, conditionals, and simple loops. This chapter gets your feet wet with Java syntax and how programs run.
+This chapter introduces the **basic structure of Java programs**, including classes, the `main()` method, statements, conditionals, and simple loops. This chapter gets your feet wet with Java syntax and how programs run.
 
 ---
 

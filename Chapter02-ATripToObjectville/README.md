@@ -1,8 +1,6 @@
 ## Chapter 2 – A Trip to Objectville
 
-### Objective
-
-To introduce foundational object-oriented programming (OOP) concepts in Java, including **classes, objects, methods, and instance variables**. This chapter focuses on shifting from procedural thinking to object-based design.
+This introduce foundational object-oriented programming (OOP) concepts in Java, including **classes, objects, methods, and instance variables**. This chapter focuses on shifting from procedural thinking to object-based design.
 
 ---
 
