@@ -11,7 +11,7 @@ To build a strong foundation in Java and OOP by:
 - Reinforcing key CS concepts through structured code walkthroughs  
 - Preparing for software development in Java across academic and real-world applications
 
-> This journey supports coursework in **CSOP01 – M027: Object-Oriented Programming**, and aligns with core computing topics like **object-oriented design**, **software engineering practices**, and **Java-based backend development**.
+> This journey supports my school coursework in **CSOP01 – M027: Object-Oriented Programming**, and aligns with core computing topics like **object-oriented design**, **software engineering practices**, and **Java-based backend development**.
 
 ## Structure
 
@@ -35,3 +35,7 @@ Each chapter contains:
 
 This repository is for **personal learning** and concept reinforcement.  
 Feel free to explore, fork, or build on it for your own educational purposes.
+
+---
+
+_Created and Maintained by RM VILLA._
