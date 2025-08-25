@@ -4,7 +4,7 @@ This repository contains personal notes, Java code examples, and hands-on mini-p
 
 ## Purpose
 
-To build a strong foundation in Java and OOP by:
+To build a strong foundation in **Java** and **OOP** by:
 
 - Understanding core Java syntax and structure  
 - Practicing OOP principles like encapsulation, inheritance, and polymorphism  
