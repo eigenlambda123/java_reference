@@ -28,7 +28,7 @@ METHOD: String checkYourself(String userGuess)
 END METHOD
 ```
 
-#### Test Code
+### Test Code
 
 * Separate class or methods used to verify correctness of real code.
 * Typically includes a `main()` method.
@@ -51,7 +51,7 @@ public class SimpleDotComTest {
 }
 ```
 
-#### Real Code
+### Real Code
 
 * The final, working implementation.
 * Complete, robust, readable, maintainable.
