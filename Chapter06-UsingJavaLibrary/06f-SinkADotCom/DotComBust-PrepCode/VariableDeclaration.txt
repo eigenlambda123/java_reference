@@ -1,0 +1,3 @@
+DECLARE and instantiate the GameHelper instace variable, named helper.
+DECLARE and instantiate an ArrayList to hold the list of the DotComs, call it dotComsList.
+DECLARE an int variable to hold the number of user guesses (so that we can give the user a score at the end of the game). Name it numOfGuess and set it to 0.

@@ -1,0 +1,4 @@
+DECLARE a setUpGame() method to create and initialize the DotCom objects with names and locations. Display brief instructions to the user.
+DECLARE a startPlaying() method that ask the player for guesses and calls the checkUserGuess() method until all the DotCom objects are removed from play
+DECLARE a checkUserGuess() method that loops through all remaining DotCom objects and calls each DotCom object's checkYourself() method.
+DECLARE a finishGame() method that prints a message about the user's performance, based on how many guesses it took to sink all the DotCom objects.
