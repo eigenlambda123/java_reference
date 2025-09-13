@@ -72,17 +72,6 @@ two.playIt();
 ---
 
 
-### Common Mistake Alert
-
-* If the class is `public`, the filename **must match** the class name:
-
-  ```java
-  // File must be named MovieTestDrive.java
-  public class MovieTestDrive { ... }
-  ```
-
----
-
 ### Java Syntax and Structure
 
 * When a class is declared `public`, the filename must match the class name.
