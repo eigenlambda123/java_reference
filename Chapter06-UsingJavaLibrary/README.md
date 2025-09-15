@@ -7,9 +7,7 @@ This chapter introduces **ArrayList** from the Java Collections Framework and de
 ### ArrayList
 
 - A resizable array that grows/shrinks automatically.
-
 - Part of `java.util` package.
-
 - Stores **objects only** (not primitives directly). Use wrapper classes (`Integer`, `Double`, etc.) for primitives.
 
 
@@ -29,9 +27,7 @@ System.out.println(names); // [Alice, Bob]
 ### add and get Methods
 
 - `add(E element)` – appends element to the list.
-
 - `add(int index, E element)` – inserts at a given index.
-
 - `get(int index)` – retrieves element at a specific index.
 
 
@@ -49,9 +45,7 @@ System.out.println(colors.get(0)); // Red
 ### set Method
 
 - Replaces the element at a specific index.
-
 - Syntax: `set(int index, E element)`.
-
 - Useful for updating values without resizing the list.
 
 
@@ -70,9 +64,7 @@ System.out.println(fruits); // [Apple, Mango]
 ### remove Method
 
 - Removes an element either by **index** or by **object value**.
-
 - `remove(int index)` – removes element at index.
-
 - `remove(Object o)` – removes first occurrence of object.
 
 
@@ -114,9 +106,7 @@ System.out.println(nums.isEmpty()); // true
 ### Boolean Expressions with &&, ||, .equals
 
 - `&&` – logical AND, both conditions must be true.
-    
 - `||` – logical OR, at least one must be true.
-    
 - `.equals()` – compares **object values**, not references.
     
 
@@ -136,7 +126,6 @@ if (a.equals(b) && a.length() > 3) {
 ### ! and != Operators
 
 - `!` – logical NOT, inverts a boolean value.
-    
 - `!=` – not equal operator (works for primitives).
     
 
@@ -159,16 +148,12 @@ if (!flag) {
 ### Using the Java Library (Java API)
 
 - Java API = **Application Programming Interface**.
-    
 - Official online documentation for all Java classes and methods.
-    
 - Each class entry shows: constructors, methods, return types, exceptions.
-    
 - Use it to check **syntax, parameters, return values, and examples**.
     
 
 **Example:**
 
 - Check `ArrayList` API page to learn about `add`, `remove`, `size`, etc.
-    
 - Prevents guessing and saves time.
