@@ -17,15 +17,16 @@ To build a strong foundation in **Java** and **OOP** by:
 
 The folder structure mirrors the book chapters and breaks down into smaller coding tasks and examples:
 
-| Folder                          | Focus Area                                                  |
-| ------------------------------- | ----------------------------------------------------------- |
-| `Chapter01-BreakingTheSurface/` | Getting started, writing first Java program                 |
-| `Chapter02-ATripToObjectville/` | Intro to objects, message sending, and encapsulation basics |
-| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
-| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
-| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
-| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
-| `...`                           | *(More chapters will follow as learning progresses)*        |
+| Folder                          | Focus Area                                                    |
+| ------------------------------- | ------------------------------------------------------------- |
+| `Chapter01-BreakingTheSurface/` | Getting started, writing your first Java program              |
+| `Chapter02-ATripToObjectville/` | Introduction to objects, message sending, encapsulation       |
+| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references                |
+| `Chapter04-HowObjectsBehave/`   | Object state, behavior, and method interaction                |
+| `Chapter05-ExtraStrengthMethods/` | Method overloading, return types, and call stacks           |
+| `Chapter06-UsingJavaLibrary/`   | Java standard libraries, APIs, and object interaction         |
+| `...`                           | *(More chapters will follow as learning progresses)*          |
+
 
 Each chapter contains:
 
