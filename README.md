@@ -22,6 +22,9 @@ The folder structure mirrors the book chapters and breaks down into smaller codi
 | `Chapter01-BreakingTheSurface/` | Getting started, writing first Java program                 |
 | `Chapter02-ATripToObjectville/` | Intro to objects, message sending, and encapsulation basics |
 | `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
+| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
+| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
+| `Chapter03-KnowYourVariables/`  | Variables, assignments, memory, and references              |
 | `...`                           | *(More chapters will follow as learning progresses)*        |
 
 Each chapter contains:
